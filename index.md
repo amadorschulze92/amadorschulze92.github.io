@@ -1,7 +1,3 @@
-<html>
-  <body>
-    <text>
-      yo what up dude
-    </text>
-  </body>
-</html>
+# Michael A. Schulze
+
+yo what up dude
