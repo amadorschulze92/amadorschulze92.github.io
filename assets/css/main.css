@@ -52,7 +52,7 @@ ul.posts li {
     list-style: none;
 }
 
-header {
+.header {
   padding: 60px;
   text-align: center;
   background: #1abc9c;
