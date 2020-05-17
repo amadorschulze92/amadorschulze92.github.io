@@ -15,7 +15,7 @@ title: Michael A. Schulze
   </head>
   <body>
     <p class="intro">
-      <img src="/assets/images/Michael_Schulze.jpg" width="100" height="140" alt="Michael Schulze">
+      <img src="/assets/images/Michael_Schulze.jpg" width="200" height="280" alt="Michael Schulze">
       I am a strategy-oriented data scientist who loves long walks through
       random forests. I have a background in economics, past projects in natural
       language processing (NLP), and I've been able to work for start-ups,
@@ -32,9 +32,9 @@ title: Michael A. Schulze
       {% for post in site.posts %}
         <div class="column">
           <div class="card">
-            <img src="{{ post.title }}.jpeg" alt="Avatar" style="width:100%">
+            <img src={{ post.title }}".jpeg" alt={{ post.title }} style="width:100%">
             <a href="{{ post.url }}">
-              <h3>{{ post.title }}</h3>
+              <h2>{{ post.title }}</h2>
             </a>
             <p>{{ page.date | date_to_string }}</p>
           </div>
