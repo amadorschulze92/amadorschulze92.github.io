@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 60px auto;
+    margin: 30px auto;
     width: 70%;
 }
 
@@ -16,7 +16,7 @@ nav ul, footer ul {
 
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 a {
