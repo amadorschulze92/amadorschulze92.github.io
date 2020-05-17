@@ -4,7 +4,7 @@
 
 body {
     margin: 30px auto;
-    width: 85%;
+    width: 70%;
 }
 
 nav ul, footer ul {
@@ -53,16 +53,13 @@ ul.posts li {
     list-style: none;
 }
 
-header{
-  padding: 40px 40px 10px;
-}
-
 .header {
   padding: 40px 40px 10px;
   text-align: center;
   background: #1abc9c;
   color: white;
   font-size: 30px;
+  width: 90%;
 }
 
 /* Float four columns side by side */
