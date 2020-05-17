@@ -28,13 +28,14 @@ title: Michael A. Schulze
     <br>
     <h1>Projects</h1>
     <div class="row">
-      <div class="column">
-        <div class="card">
-          <h3>Card 1</h3>
-          <p>Some text</p>
-          <p>Some text</p>
+      {% for post in site.posts %}
+        <div class="column">
+          <div class="card">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt }}</p>
+          </div>
         </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
   </body>
