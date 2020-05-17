@@ -41,8 +41,8 @@ p {
 }
 
 .intro {
-    font-size: 1.3em;
-    line-height: 1.3em;
+    font-size: 1.5em;
+    line-height: 1.4em;
     color: #333;
     padding: 15px;
 }
@@ -72,7 +72,7 @@ ul.posts li {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 33%;
   padding: 0 10px;
 }
 
@@ -102,20 +102,6 @@ ul.posts li {
   text-align: center;
   background-color: #f1f1f1;
 }
-
-/* .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 5px;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-  padding: 2px 16px;
-} */
 
 img {
   max-width: 100%;
