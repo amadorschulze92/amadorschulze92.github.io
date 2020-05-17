@@ -31,9 +31,11 @@ title: Michael A. Schulze
     <div class="row">
       {% for post in site.posts %}
         <div class="column">
-          <div class="card"><a href="{{ post.url }}"></a>
-            <h3>{{ post.title }}</h3>
-            <p>{{ post.excerpt }}</p>
+          <div class="card">
+            <a href="{{ post.url }}">
+              <h3>{{ post.title }}</h3>
+            </a>
+            <p>{{ page.date | date_to_string }}</p>
           </div>
         </div>
       {% endfor %}
