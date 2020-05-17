@@ -39,6 +39,14 @@ p {
     color: #333;
     padding: 15px;
 }
+
+.intro {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    color: #333;
+    padding: 15px;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
