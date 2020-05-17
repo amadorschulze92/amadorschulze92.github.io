@@ -52,6 +52,10 @@ ul.posts li {
     list-style: none;
 }
 
+header{
+  padding: 40px 40px 10px;
+}
+
 .header {
   padding: 40px 40px 10px;
   text-align: center;
