@@ -2,3 +2,8 @@ name: Michael A. Schulze
 Title: Michael A. Schulze
 navbar: true
 description: The musings and projects of a data science padawan.
+defaults:
+  - scope:
+      path: "assets/imgages"
+    values:
+      image: true
