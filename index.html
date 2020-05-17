@@ -27,15 +27,15 @@ title: Michael A. Schulze
     <br>
     <br>
     <h1>Projects</h1>
-    <div class="card">
-      {% for post in site.posts %}
+    {% for post in site.posts %}
+      <div class="card">
         <img src="{{post.title}}.png" alt="Avatar" style="width:100%">
         <div class="container">
           <h3><b>{{ post.title }}</b></h3>
           <p>{{ post.date | date_to_string }}</p>
         </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
   </div>
   </body>
 </html>
