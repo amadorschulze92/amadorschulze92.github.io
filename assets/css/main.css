@@ -34,7 +34,7 @@ h1 {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.0em;
     line-height: 1.4em;
     color: #333;
 }
@@ -53,7 +53,7 @@ ul.posts li {
 }
 
 .header {
-  padding: 60px;
+  padding: 50px;
   text-align: center;
   background: #1abc9c;
   color: white;
