@@ -32,11 +32,10 @@ title: Michael A. Schulze
     <div class="row">
       {% for post in site.posts %}
         <div class="column">
-          <div class="card">
-            {% capture new_var %}/assets/images/{{ post.title }}.jpeg{% endcapture %}
+          {% capture new_var %}/assets/images/{{ post.title }}.jpeg{% endcapture %}
+          <div class="card" style="background-image: {{ new_var }} alt={{ post.title }}">
             <a href="{{ post.url }}">
               <h2>{{ post.title }}</h2>
-              <img src={{ new_var }} alt={{ post.title }} style="width:100%">
             </a>
             <p>{{ page.date | date_to_string }}</p>
           </div>
