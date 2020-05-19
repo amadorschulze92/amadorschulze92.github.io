@@ -41,8 +41,8 @@ p {
 }
 
 .intro {
-    font-size: 1.6em;
-    line-height: 1.4em;
+    font-size: 1.55em;
+    line-height: 1.3em;
     color: #333;
     padding: 20px;
 }
@@ -62,7 +62,7 @@ ul.posts li {
 }
 
 .header {
-  padding: 30px 30px 10px;
+  padding: 10px 10px 10px;
   text-align: center;
   background: #1abc9c;
   color: white;
