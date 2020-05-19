@@ -16,7 +16,7 @@ nav ul, footer ul {
 
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 a {
@@ -50,6 +50,7 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    padding: 10px;
 }
 
 ul.posts {
@@ -62,7 +63,7 @@ ul.posts li {
 }
 
 .header {
-  padding: 10px 10px 10px;
+  padding: 0px 0px 0px;
   text-align: center;
   background: #1abc9c;
   color: white;
