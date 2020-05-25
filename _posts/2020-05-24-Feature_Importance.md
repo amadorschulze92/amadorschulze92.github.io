@@ -1,10 +1,15 @@
+---
+layout: post
+author: Michael A. Schulze
+---
+
+# Feature Importance
+
 ```python
 %run featimp
 import pandas as pd
 import numpy as np
 ```
-
-# Feature Importance
 
 More recently it was brought to my attention that the baked in feature importance methods in one of the more popular python machine leaning libraries was not entirely accurate. More specifically, the feature importance method in scikit-learn's Random Forest implementation was not working properly and was only partially fix last year. At a past job I used that feature importance method and made claims about how my model was predicting something to a sales person I interfaced with. After Tarrence Parr informed me of this mistake in scikit-learn's code, I became interested in how to compute these feature importances on my own so if I was ever unsure of the built in method I could check it with my own implementation. So in the cells below I will walk you through how I went about creating my simple python feature importance functions.
 
