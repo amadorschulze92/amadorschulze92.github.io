@@ -111,9 +111,12 @@ ul.posts li {
   padding: 2px 16px;
 }
 
-img {
+div.card img {
   max-width: 100%;
   border-radius: 5px 5px 5px 5px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 p.intro img {
@@ -121,4 +124,30 @@ p.intro img {
   float: left;
   margin: 10px 10px 10px 10px;
   border-radius: 5px 5px 5px 5px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .image {
+  opacity: 0.3;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+
+.hidden_text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
