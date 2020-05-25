@@ -68,7 +68,7 @@ ul.posts li {
   background: #1abc9c;
   color: white;
   font-size: 30px;
-  font-family:'Garamond';
+  font-family:'Garamond', 'Arial', 'Sans-Serif';
 }
 
 /* Float four columns side by side */
