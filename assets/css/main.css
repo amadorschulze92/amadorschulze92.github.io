@@ -126,6 +126,12 @@ p.intro img {
   border-radius: 5px 5px 5px 5px;
 }
 
+li img {
+  max-width: 40%;
+  margin: 10px 10px 10px 10px;
+  border-radius: 5px 5px 5px 5px;
+}
+
 .middle {
   transition: .5s ease;
   opacity: 0;
