@@ -2,6 +2,7 @@
 layout: post
 author: Michael A. Schulze
 subtitle: Feature Importance
+intro: Let's answer how to figure out what clues your model is using to get a solution?
 ---
 
 # Feature Importance
