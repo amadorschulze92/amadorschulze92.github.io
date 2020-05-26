@@ -135,7 +135,7 @@ li img {
 .middle {
   transition: .5s ease;
   opacity: 0;
-  transform: translate(0%, -100%);
+  transform: translate(0%, -150%);
   /* -ms-transform: translate(-50%, -50%); */
   text-align: center;
 }
