@@ -137,8 +137,8 @@ li img {
   opacity: 0;
   /* top: 10%;
   left: 50%; */
-  /* transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); */
+  transform: translate(50%, -0%);
+  /* -ms-transform: translate(-50%, -50%); */
   text-align: center;
 }
 
