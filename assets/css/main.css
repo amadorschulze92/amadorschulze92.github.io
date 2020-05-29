@@ -74,7 +74,7 @@ ul.posts li {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 30%;
+  width: 23%;
   padding: 0 10px;
 }
 
@@ -86,6 +86,7 @@ ul.posts li {
   content: "";
   display: table;
   clear: both;
+  height: auto
 }
 
 /* Responsive columns */
@@ -99,7 +100,7 @@ ul.posts li {
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   border-radius: 5px;
   background-color: #f1f1f1;
