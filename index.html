@@ -33,8 +33,8 @@ title: Michael A. Schulze
       {% for post in site.posts %}
         <div class="column">
           <div class="card">
-            {% capture new_var %}/assets/images/{{ post.title }}.jpeg{% endcapture %}
             <a href="{{ post.url }}">
+              {% capture new_var %}/assets/images/{{ post.title }}.jpeg{% endcapture %}
               <img src={{ new_var }} alt={{ post.title }} style="width:100%" class="card_image">
             </a>
             <div class="container">
