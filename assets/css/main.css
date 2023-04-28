@@ -34,17 +34,17 @@ h1 {
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.15em;
     line-height: 1.15em;
     color: #333;
     padding: 15px;
 }
 
 .intro {
-    font-size: 1.55em;
+    font-size: 1.5em;
     line-height: 1.3em;
     color: #333;
-    padding: 10px 10px 20px;
+    padding: 10px 10px 15px;
 }
 
 footer {
